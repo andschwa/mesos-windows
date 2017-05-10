@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "cmake.preferredGenerators": [
+        "Visual Studio 15 2017 Win64"
+    ],
+    "cmake.toolset": "host=x64",
+    "cmake.configureSettings": {
+        "ENABLE_LIBEVENT": 1,
+        "HAS_AUTHENTICATION": 0
+    }
+}

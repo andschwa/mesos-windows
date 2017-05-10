@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+         {
+            "name": "stout-tests",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/build/3rdparty/stout/tests/Debug/stout-tests.exe",
+            "args": [ "--gtest_filter=*" ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": false
+        },
+        {
+            "name": "mesos-tests",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/build/src/mesos-tests.exe",
+            "args": [ "--gtest_filter=*" ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": false
+        },
+        {
+            "name": "C++ Attach (Windows)",
+            "type": "cppvsdbg",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
