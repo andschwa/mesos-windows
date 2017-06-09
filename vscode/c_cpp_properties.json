@@ -1,6 +1,40 @@
 {
     "configurations": [
         {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
             "name": "Win32",
             "defines": [
                 "_DEBUG",
@@ -9,14 +43,14 @@
             ],
             "includePath": [
                 "${workspaceRoot}",
-                "${workspaceRoot}/src",
                 "${workspaceRoot}/include",
-                "${workspaceRoot}/3rdparty/stout/include",
+                "${workspaceRoot}/src",
                 "${workspaceRoot}/3rdparty/libprocess/include",
+                "${workspaceRoot}/3rdparty/stout/include",
                 "${workspaceRoot}/build/3rdparty/curl-7.43.0/src/curl-7.43.0/include",
+                "${workspaceRoot}/build/3rdparty/gmock-1.7.0/src/gmock-1.7.0/include",
                 "${workspaceRoot}/build/3rdparty/libevent-2.1.5-beta/src/libevent-2.1.5-beta/include",
                 "${workspaceRoot}/build/3rdparty/glog-da816ea70/src/glog-da816ea70/src/windows/",
-                "${workspaceRoot}/build/3rdparty/gmock-1.7.0/src/gmock-1.7.0/include",
                 "${workspaceRoot}/build/3rdparty/gmock-1.7.0/src/gmock-1.7.0/gtest/fused-src/",
                 "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.10.25017/include/*",
                 "C:/Program Files (x86)/Windows Kits/10/Include/10.0.14393.0/um",

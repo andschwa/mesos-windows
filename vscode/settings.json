@@ -5,7 +5,28 @@
     ],
     "cmake.toolset": "host=x64",
     "cmake.configureSettings": {
+        "3RDPARTY_DEPENDENCIES": "C:/Users/andschwa/src/mesos-3rdparty",
         "ENABLE_LIBEVENT": 1,
         "HAS_AUTHENTICATION": 0
+    },
+    "files.associations": {
+        "istream": "cpp",
+        "xlocmes": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xloctime": "cpp",
+        "array": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "random": "cpp",
+        "xutility": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "deque": "cpp",
+        "hash_map": "cpp",
+        "map": "cpp",
+        "unordered_map": "cpp"
     }
 }
